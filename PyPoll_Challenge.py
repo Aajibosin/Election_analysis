@@ -6,10 +6,9 @@ import csv
 import os
 
 # Add a variable to load a file from a path.
-file_to_load ='C://Users/ajibo/Pypoll_Challenge.py/Pypoll_challenge.py.csv'
+file_to_load =
 # Add a variable to save the file to a path.
-file_to_save = 'C://Users/ajibo/Election_analysis/analysis/election_analysis.txt'
-
+file_to_save = 
 # Initialize a total vote counter.
 total_votes = 0
 
@@ -130,13 +129,14 @@ with open(file_to_load) as election_data:
 
 
          # 6d: Print the county results to the terminal.
-         print(county_results, end="")
+        print(county_results, end="")
+           
 
          # 6e: Save the county votes to a text file.
-         txt_file.write(county_results)
+        txt_file.write(county_results)
 
          # 6f: Write an if statement to determine the winning county and get its vote count.
-         if (county > winning_county) and (county_percentage > winning_c_percentage):
+        if (county > winning_county) and (county_percentage > winning_c_percentage):
              winning_county= county
              winning_c_candidate = county_name
              winning_c_percentage = county_percentage
